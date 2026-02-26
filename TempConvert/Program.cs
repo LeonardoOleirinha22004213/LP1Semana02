@@ -26,6 +26,11 @@ namespace TempConvert
                 Console.WriteLine(temperatura + " " + unidadeOrigem + " = " + formula + " C");
                 break;
 
+                default:
+                Console.WriteLine("Invalid Unit");
+                return;
+
+
             }
         }
     }
